@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="jquery-1.11.1.min.js"></script>
+        <script src="jcanvas.min.js"></script>
+        <script src="jquery-ui.js"></script>
+        <script src="Criminals.js"></script>
+        <script src="Witnesses.js"></script>
+        <script src="Case.js"></script>
+		<script src="Interrogate.js"></script>
+        <script src="MainMenu.js"></script>
+        <script src="Background.js"></script>
+        <script src="Papers.js"></script>
+        <script src="Lights.js"></script>
+        <script src="OpenCase.js"></script>
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
+        <p1>Age</p1>
+        <div id = "agemeter" width = '1000' height = '30'></div>
+    </head>
+    <header>
+        <!--<t1 class = "center">Private Eye</t1>-->
+    </header>
+    <body>
+        <canvas id = "background" width='1000' height='600' style="position: absolute; left: 0; top: 0; z-index: 1;"></canvas>
+        <canvas id = "cases" width='1000' height='600' style="position: absolute; left: 0; top: 0; z-index: 0;"></canvas>
+        <canvas id = "papers" width='1000' height='600' style="position: absolute; left: 0; top: 0; z-index: 0;"></canvas>
+        <canvas id = "interrogation" width='1000' height='600' style="position: absolute; left: 0; top: 0; z-index: 0;"></canvas>
+        <canvas id = "interrogation-messages" width='1000' height='600' style="position: absolute; left: 0; top: 0; z-index: 0;"></canvas>
+		<textBox id = "response" width = "100px" height = "50px"></textBox>
+		<question id = "q1"></question>
+		<question id = "q2"></question>
+		<question id = "q3"></question>
+        <!--<question id = "spt">"Welcome to your job. You are private investigator for crimes in which we have suspects but evidence. Instead, you are to rely on figuring out who was the most likely person to commit the crime."</question>-->
+    </body>
+</html>
